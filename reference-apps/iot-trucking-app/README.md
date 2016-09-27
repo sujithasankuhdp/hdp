@@ -164,7 +164,7 @@ Log into the node where you installed the Maven Projects in the earlier step as 
 		* hbase.zookeeper.host --> the zookeeper host that hbase uses.
 		* trucking.activemq.host --> set this to the host where you installed and running activemq
 		* trucking.notification.topic.connection.url --> replace the host with the host for your activemq instance
-		* trucking.storm.topology.jar --> change this ot the location of the local maven repo where you installed the storm topology 			* (e.g: /root/.m2/repository/hortonworks/hdp/refapp/trucking/trucking-storm-topology/3.0.0-SNAPSHOT/trucking-storm-topology-3.0.0-SNAPSHOT-shaded.jar)
+		* trucking.storm.topology.jar --> change this ot the location of the local maven repo where you installed the storm topology 			* (e.g: /root/.m2/repository/hortonworks/hdp/refapp/trucking/trucking-storm-topology/5.0.0-SNAPSHOT/trucking-storm-topology-5.0.0-SNAPSHOT-shaded.jar)
 )
 
 #####  Start the IOT Web Portal Application Server

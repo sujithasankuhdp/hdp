@@ -1,0 +1,1 @@
+java -Xmx1024m -jar ~/workspace/hdp/reference-apps/iot-trucking-app/trucking-data-simulator/target/stream-simulator.jar 6 250 hortonworks.hdp.refapp.trucking.simulator.impl.collectors.StdOutEventCollector 1000 /etc/storm_demo/routes/midwest 1000

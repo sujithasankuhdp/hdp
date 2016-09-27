@@ -161,7 +161,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>com.hortonworks.App</mainClass>
+							<mainClass>hortonworks.hdp.refapp.trucking.simulator.App</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
