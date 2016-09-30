@@ -1,3 +1,9 @@
+Forked from George's repo of IoT Trucking demo to get this work on sandbox.
+Also simulated the data for MiniFi using the following command:
+java -jar stream-simulator.jar 1 250 hortonworks.hdp.refapp.trucking.simulator.impl.domain.transport.Truck hortonworks.hdp.refapp.trucking.simulator.impl.collectors.FileEventCollector 1000 /etc/storm_demo/routes/midwest 1000 /tmp/truck-sensor-data/telemetry-device-1.txt 10 Wichita to Little Rock.kml
+
+Also working on deploying the topology.
+
 # HDF 2.0 Streaming Analytics Reference Application
 This project is meant to be a reference application for the Hortonworks Data Flow Platform (HDF) The project consists of 5 projects:
 
