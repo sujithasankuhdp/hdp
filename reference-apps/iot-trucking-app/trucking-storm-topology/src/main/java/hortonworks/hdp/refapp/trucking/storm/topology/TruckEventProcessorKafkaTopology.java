@@ -1,5 +1,6 @@
 package hortonworks.hdp.refapp.trucking.storm.topology;
 
+
 import hortonworks.hdp.refapp.trucking.storm.bolt.alert.TruckEventRuleBolt;
 import hortonworks.hdp.refapp.trucking.storm.bolt.alert.window.TumblingWindowInfractionCountBolt;
 import hortonworks.hdp.refapp.trucking.storm.bolt.alert.window.rule.InfractionRulesBolt;

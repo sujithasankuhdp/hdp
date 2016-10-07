@@ -4,7 +4,7 @@ package hortonworks.hdp.refapp.trucking.install.service;
 import hortonworks.hdp.apputil.registry.HDPServiceRegistry;
 import hortonworks.hdp.apputil.storm.StormTopologyParams;
 import hortonworks.hdp.apputil.storm.StormUtils;
-import hortonworks.hdp.refapp.trucking.storm.topology.TruckEventProcessorKafkaTopology;
+import hortonworks.hdp.refapp.trucking.storm.topology.TruckEventProcessorKafkaTopologyPhase3;
 
 import java.util.Properties;
 
@@ -91,7 +91,7 @@ public class StormService {
 	}	
 
 	private StormTopology buildTopology(Properties topologyConfig) throws Exception {
-		TruckEventProcessorKafkaTopology truckTopology = new TruckEventProcessorKafkaTopology(topologyConfig);
+		TruckEventProcessorKafkaTopologyPhase3 truckTopology = new TruckEventProcessorKafkaTopologyPhase3(topologyConfig);
 		StormTopology topology = truckTopology.buildTopology();
 		return topology;
 	}	
