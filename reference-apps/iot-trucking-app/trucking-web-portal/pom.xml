@@ -78,8 +78,22 @@
                             <webAppSourceDirectory>${project.basedir}/src/main/webappResources</webAppSourceDirectory>
                             <stopKey>foo</stopKey>
                             <stopPort>9998</stopPort>
-                            
                         </configuration>
+                        <!-- added this as when running jetty 9 on java 8 using the maven jetty plugin, there were issues for jetty to come up  -->
+                        <dependencies>
+                               <dependency>
+                                           <groupId>org.ow2.asm</groupId>
+                                           <artifactId>asm</artifactId>
+                                           <version>5.0.2</version>
+                               </dependency>
+                               <dependency>
+                                           <groupId>org.ow2.asm</groupId>
+                                           <artifactId>asm-commons</artifactId>
+                                           <version>5.0.2</version>
+                               </dependency>
+                         </dependencies>
+                         <!-- till here asm jetty dependencies -->
+			    
                     </plugin>
                 </plugins>
             </build>
